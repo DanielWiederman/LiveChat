@@ -1,0 +1,186 @@
+.inputBox{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.title{
+    font-size: 50px;
+    background: -webkit-linear-gradient(#a80077, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.style-1::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.style-1::-webkit-scrollbar
+{
+    width: 9px;
+    background-color: #F5F5F5;
+}
+
+.style-1::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: gray;
+}
+
+.style-2::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+    background-color: #CCCCCC;
+}
+
+.style-2::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+.style-2::-webkit-scrollbar-thumb
+{
+    background-color: #FFF;
+    background-image: -webkit-linear-gradient(90deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(0, 0, 0, 1) 25%,
+        transparent 100%,
+        rgba(0, 0, 0, 1) 75%,
+        transparent)
+}
+
+.contactBox{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: gray;
+    overflow-y: scroll;
+}
+
+.chatProfileTarget{
+    background: #ff6a00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ee0979, #ff6a00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ee0979, #ff6a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 1px 2px black;
+    border-radius: 5px;
+}
+
+.textAreaChat{
+    border: 1px solid black;
+    border-radius: 15px; 
+    background: #fffc00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #fffc00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #fffc00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+}
+
+.firstUser{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: gold;
+    overflow:hidden;
+}
+
+.secondUser{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: salmon;
+    overflow:hidden;
+}
+
+.userName{
+    font-size: 20px;
+}
+
+.messageBody{
+    font-size: 15px;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    margin: 1%;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.time{
+    font-size: 11px;
+}
+
+.btn-circle.btn-xl {
+    width: 50px;
+    height: 50px;
+    padding: 8px 13px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.contactContainer{
+    overflow-y: scroll;
+}
+
+.startingLine {
+    font-size: 30px;
+    background: -webkit-linear-gradient(#00C9FF, #92FE9D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.chatBox{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 25px;
+    background: #ee0979;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow-y: scroll;
+}
+
+.options{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 25px;
+    background: #ee0979;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header{
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.divider{
+    height: 30px;
+}
+
+section{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.Circlebutton{
+    border-radius: 25px;
+}
+
+footer{
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7*/
+}
+
+.contact:hover{
+    background-color: yellow;
+    border-radius: 15px
+}
